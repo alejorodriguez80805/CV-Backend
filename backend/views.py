@@ -139,7 +139,7 @@ def index(request):
 					inner_elements_object2= {}
 
 					inner_elements_object2['type'] = "string"
-					inner_elements_object2['caption'] = education.year
+					inner_elements_object2['caption'] = education.year.strftime('%Y/%m/%d')
 					inner_element_array.append(inner_elements_object2)
 
 
