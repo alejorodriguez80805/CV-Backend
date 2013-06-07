@@ -1,0 +1,11 @@
+Django==1.5.1
+South==0.7.5
+dj-database-url==0.2.0
+gunicorn==0.17.2
+psycopg2==2.4.5
+python-dateutil==1.5
+pytz==2013b
+simplejson==2.6.0
+wsgiref==0.1.2
+django-storages
+boto
